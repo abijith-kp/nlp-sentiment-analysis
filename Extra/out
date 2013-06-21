@@ -1,0 +1,80 @@
+Loading input file...
+Sentence tokenization...
+POS tagging for words...
+Tagging sentence....
+Loading Parser...
+Finished loading...
+Processing input...
+Number of sentences to process:  39
+[('He', 'PRP'), ('was', 'VBD'), ('very', 'RB')] 
+(S He/PRP (VP (V was/VBD) very/RB))
+0
+[('Glamorous', 'JJ'), ('stars,', 'NN'), ('foreign', 'JJ'), ('locales', 'NNS'), ('and', 'CC'), ('lavishly-filmed', 'JJ'), ('songs', 'NNS'), ('are', 'VBP'), ('mandatory', 'JJ'), ('in', 'IN'), ('his', 'PRP$')] 
+(S
+  (NP Glamorous/JJ stars,/NN)
+  (NP foreign/JJ)
+  locales/NNS
+  and/CC
+  (NP lavishly-filmed/JJ)
+  songs/NNS
+  (VP (V are/VBP) (NP mandatory/JJ))
+  (P in/IN)
+  his/PRP$)
+0
+[('With', 'IN'), ('RANGREZZ,', 'JJ'), ('he', 'PRP'), ('delves', 'VBZ'), ('into', 'IN'), ('the', 'DT'), ('realistic', 'JJ'), ('world', 'NN'), ('for', 'IN'), ('the', 'DT'), ('first', 'JJ')] 
+(S
+  (PP (P With/IN) (NP RANGREZZ,/JJ))
+  he/PRP
+  (VP
+    (V delves/VBZ)
+    (PP (P into/IN) (NP the/DT realistic/JJ world/NN))
+    (PP (P for/IN) (NP the/DT first/JJ))))
+0
+[('for', 'IN'), ('who', 'WP'), ('returns', 'NNS'), ('to', 'TO'), ('hard-hitting,', 'JJ'), ('gritty', 'NN'), ('cinema', 'NN'), ('that', 'WDT'), ('you', 'PRP'), ('appreciated', 'VBD'), ('and', 'CC'), ('applauded', 'VBN'), ('in', 'IN'), ('his', 'PRP$'), ('earlier', 'JJR'), ('films,', 'JJ'), ('especially', 'RB')] 
+(S
+  (P for/IN)
+  who/WP
+  returns/NNS
+  to/TO
+  (NP hard-hitting,/JJ gritty/NN cinema/NN)
+  that/WDT
+  you/PRP
+  (VP (V appreciated/VBD))
+  and/CC
+  (VP (V applauded/VBN))
+  (P in/IN)
+  his/PRP$
+  earlier/JJR
+  (NP films,/JJ)
+  especially/RB)
+0
+[('Of', 'IN'), ('course,', 'JJ'), ('is', 'VBZ'), ('not', 'RB'), ('as', 'IN'), ('hard-hitting', 'JJ'), ('as', 'IN'), ('those', 'DT'), ('but', 'CC'), ('it', 'PRP'), ('takes', 'VBZ'), ('the', 'DT'), ('realistic', 'JJ'), ('route', 'NN'), ('like', 'IN'), ('those', 'DT')] 
+(S
+  (PP (P Of/IN) (NP course,/JJ))
+  (VP
+    (V is/VBZ)
+    not/RB
+    (PP (P as/IN) (NP hard-hitting/JJ))
+    (PP (P as/IN) (NP those/DT)))
+  but/CC
+  it/PRP
+  (VP
+    (V takes/VBZ)
+    (NP the/DT realistic/JJ route/NN)
+    (PP (P like/IN) (NP those/DT))))
+0
+[('The', 'DT'), ('terrain,', 'NN'), ('once', 'RB'), ('again,', 'JJ'), ('is', 'VBZ'), ('a', 'DT'), ('crowded', 'VBN'), ('basti', 'NN'), ('of', 'IN'), ('which', 'WDT'), ('has', 'VBZ'), ('been', 'VBN'), ('explored', 'VBN'), ('over', 'IN'), ('and', 'CC'), ('over', 'IN')] 
+(S
+  (NP The/DT terrain,/NN)
+  once/RB
+  (PRD (NP again,/JJ) (VP (V is/VBZ) (NP a/DT)))
+  (VP (V crowded/VBN) (NP basti/NN))
+  (P of/IN)
+  which/WDT
+  (VP (V has/VBZ))
+  (VP (V been/VBN))
+  (VP (V explored/VBN))
+  (P over/IN)
+  and/CC
+  (P over/IN))
+1

@@ -1,0 +1,6 @@
+#!/usr/bin/python
+
+from nltk.tag import pos_tag
+from nltk.tokenize import word_tokenize
+
+pos_tag(word_tokenize("John's big idea isn't all that bad."))

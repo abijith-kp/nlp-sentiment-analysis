@@ -1,0 +1,492 @@
+Loading input file...
+Sentence tokenization...
+POS tagging for words...
+Tagging sentence....
+Loading Parser...
+Finished loading...
+Processing input...
+Number of sentences to process:  39
+[('He', 'PRP'), ('was', 'VBD'), ('very', 'RB')] 
+(S He/PRP (VP (V was/VBD) very/RB))
+[('Glamorous', 'JJ'), ('stars,', 'NN'), ('foreign', 'JJ'), ('locales', 'NNS'), ('and', 'CC'), ('lavishly-filmed', 'JJ'), ('songs', 'NNS'), ('are', 'VBP'), ('mandatory', 'JJ'), ('in', 'IN'), ('his', 'PRP$')] 
+(S
+  (NP Glamorous/JJ stars,/NN)
+  (NP foreign/JJ)
+  locales/NNS
+  and/CC
+  (NP lavishly-filmed/JJ)
+  songs/NNS
+  (VP (V are/VBP) (NP mandatory/JJ))
+  (P in/IN)
+  his/PRP$)
+[('With', 'IN'), ('RANGREZZ,', 'JJ'), ('he', 'PRP'), ('delves', 'VBZ'), ('into', 'IN'), ('the', 'DT'), ('realistic', 'JJ'), ('world', 'NN'), ('for', 'IN'), ('the', 'DT'), ('first', 'JJ')] 
+(S
+  (PP (P With/IN) (NP RANGREZZ,/JJ))
+  he/PRP
+  (VP
+    (V delves/VBZ)
+    (PP (P into/IN) (NP the/DT realistic/JJ world/NN))
+    (PP (P for/IN) (NP the/DT first/JJ))))
+[('for', 'IN'), ('who', 'WP'), ('returns', 'NNS'), ('to', 'TO'), ('hard-hitting,', 'JJ'), ('gritty', 'NN'), ('cinema', 'NN'), ('that', 'WDT'), ('you', 'PRP'), ('appreciated', 'VBD'), ('and', 'CC'), ('applauded', 'VBN'), ('in', 'IN'), ('his', 'PRP$'), ('earlier', 'JJR'), ('films,', 'JJ'), ('especially', 'RB')] 
+(S
+  (P for/IN)
+  who/WP
+  returns/NNS
+  to/TO
+  (NP hard-hitting,/JJ gritty/NN cinema/NN)
+  that/WDT
+  you/PRP
+  (VP (V appreciated/VBD))
+  and/CC
+  (VP (V applauded/VBN))
+  (P in/IN)
+  his/PRP$
+  earlier/JJR
+  (NP films,/JJ)
+  especially/RB)
+[('Of', 'IN'), ('course,', 'JJ'), ('is', 'VBZ'), ('not', 'RB'), ('as', 'IN'), ('hard-hitting', 'JJ'), ('as', 'IN'), ('those', 'DT'), ('but', 'CC'), ('it', 'PRP'), ('takes', 'VBZ'), ('the', 'DT'), ('realistic', 'JJ'), ('route', 'NN'), ('like', 'IN'), ('those', 'DT')] 
+(S
+  (PP (P Of/IN) (NP course,/JJ))
+  (VP
+    (V is/VBZ)
+    not/RB
+    (PP (P as/IN) (NP hard-hitting/JJ))
+    (PP (P as/IN) (NP those/DT)))
+  but/CC
+  it/PRP
+  (VP
+    (V takes/VBZ)
+    (NP the/DT realistic/JJ route/NN)
+    (PP (P like/IN) (NP those/DT))))
+[('The', 'DT'), ('terrain,', 'NN'), ('once', 'RB'), ('again,', 'JJ'), ('is', 'VBZ'), ('a', 'DT'), ('crowded', 'VBN'), ('basti', 'NN'), ('of', 'IN'), ('which', 'WDT'), ('has', 'VBZ'), ('been', 'VBN'), ('explored', 'VBN'), ('over', 'IN'), ('and', 'CC'), ('over', 'IN')] 
+(S
+  (NP The/DT terrain,/NN)
+  once/RB
+  (NP again,/JJ)
+  (VP (V is/VBZ) (NP a/DT))
+  (VP (V crowded/VBN) (NP basti/NN))
+  (P of/IN)
+  which/WDT
+  (VP (V has/VBZ))
+  (VP (V been/VBN))
+  (VP (V explored/VBN))
+  (P over/IN)
+  and/CC
+  (P over/IN))
+[('of', 'IN'), ('the', 'DT'), ('film', 'NN'), ('[2009],', 'NNP'), ('which', 'WDT'), ('was', 'VBD'), ('remade', 'VBN'), ('in', 'IN'), ('various', 'JJ'), ('Indian', 'JJ'), ('languages', 'NNS'), ('subsequently,', '-NONE-'), ('is', 'VBZ'), ('essentially', 'RB'), ('a', 'DT'), ('tale', 'NN'), ('of', 'IN'), ('with', 'IN'), ('a', 'DT'), ('love', 'NN'), ('story', 'NN'), ('integrated', 'VBD'), ('in', 'IN'), ('the', 'DT')] 
+(S
+  (PP (P of/IN) (NP the/DT film/NN))
+  [2009],/NNP
+  which/WDT
+  (VP (V was/VBD))
+  (VP (V remade/VBN) (PP (P in/IN) (NP various/JJ Indian/JJ)))
+  languages/NNS
+  subsequently,/-NONE-
+  (VP (V is/VBZ) essentially/RB (NP a/DT tale/NN))
+  (P of/IN)
+  (PP (P with/IN) (NP a/DT love/NN story/NN))
+  (VP (V integrated/VBD) (PP (P in/IN) (NP the/DT))))
+[('Sadly,', 'NN'), ('it', 'PRP'), ('runs', 'VBZ'), ('out', 'RP'), ('of', 'IN'), ('fizz', 'NN'), ('in', 'IN'), ('its', 'PRP$'), ('post-interval', 'JJ'), ('portions,', 'NN'), ('after', 'IN'), ('leaving', 'VBG'), ('quite', 'RB'), ('an', 'DT'), ('impression', 'NN'), ('in', 'IN'), ('the', 'DT'), ('first', 'JJ')] 
+(S
+  (NP Sadly,/NN)
+  it/PRP
+  (VP (V runs/VBZ))
+  out/RP
+  (PP (P of/IN) (NP fizz/NN))
+  (P in/IN)
+  its/PRP$
+  (NP post-interval/JJ portions,/NN)
+  (P after/IN)
+  (VP
+    (V leaving/VBG)
+    quite/RB
+    (NP an/DT impression/NN)
+    (PP (P in/IN) (NP the/DT first/JJ))))
+[('narrates', 'VBZ'), ('the', 'DT'), ('story', 'NN'), ('of', 'IN'), ('three', 'CD'), ('friends', 'NNS'), ('who', 'WP'), ('attempt', 'NN'), ('to', 'TO'), ('unite', 'VB'), ('another', 'DT'), ('friend', 'NN'), ('with', 'IN'), ('his', 'PRP$')] 
+(S
+  (VP (V narrates/VBZ) (NP the/DT story/NN))
+  (P of/IN)
+  three/CD
+  friends/NNS
+  who/WP
+  (NP attempt/NN)
+  to/TO
+  (VP (V unite/VB) (NP another/DT friend/NN))
+  (P with/IN)
+  his/PRP$)
+[('In', 'IN'), ('the', 'DT'), ('process,', 'NN'), ('each', 'DT'), ('of', 'IN'), ('them', 'PRP'), ('loses', 'VBZ'), ('something', 'NN')] 
+(S
+  (PP (P In/IN) (NP the/DT process,/NN))
+  (NP each/DT)
+  (P of/IN)
+  them/PRP
+  (VP (V loses/VBZ) (NP something/NN)))
+[('Consequently,', 'NN'), ('the', 'DT'), ('trio', 'NN'), ('gets', 'VBZ'), ('a', 'DT'), ('rude', 'NN'), ('shock', 'NN'), ('when', 'WRB'), ('they', 'PRP'), ('realize', 'VBP'), ('that', 'IN'), ('the', 'DT'), ('hardships', 'NNS'), ('they', 'PRP'), ('encountered', 'VBD'), ('to', 'TO'), ('unite', 'VB'), ('the', 'DT'), ('lovers', 'NNS'), ('has', 'VBZ'), ('proved', 'VBN'), ('meaningless,', '-NONE-'), ('as', 'IN'), ('the', 'DT'), ('lovers', 'NNS'), ('decide', 'VBP'), ('to', 'TO'), ('go', 'VB'), ('separate', 'JJ'), ('ways', 'NNS'), ('owing', 'VBG'), ('to', 'TO')] 
+(S
+  (NP Consequently,/NN)
+  (NP the/DT trio/NN)
+  (VP (V gets/VBZ) (NP a/DT rude/NN shock/NN))
+  when/WRB
+  they/PRP
+  (VP (V realize/VBP) (PP (P that/IN) (NP the/DT)))
+  hardships/NNS
+  they/PRP
+  (VP (V encountered/VBD))
+  to/TO
+  (VP (V unite/VB) (NP the/DT))
+  lovers/NNS
+  (VP (V has/VBZ))
+  (VP (V proved/VBN))
+  meaningless,/-NONE-
+  (PP (P as/IN) (NP the/DT))
+  lovers/NNS
+  (VP (V decide/VBP))
+  to/TO
+  (VP (V go/VB) (NP separate/JJ))
+  ways/NNS
+  (VP (V owing/VBG))
+  to/TO)
+[('A', 'DT'), ('simplistic', 'JJ'), ('plot,', 'NN'), ('humble', 'JJ'), ('setting', 'NN'), ('and', 'CC'), ('straight-forward', 'JJ'), ('RANGREZZ', 'NNP'), ('arrives', 'VBZ'), ('without', 'IN'), ('the', 'DT'), ('usual', 'JJ'), ('frills', 'NNS'), ('and', 'CC'), ('trappings', 'NNS'), ('of', 'IN'), ('a', 'DT'), ('masala', 'NN')] 
+(S
+  (NP A/DT simplistic/JJ plot,/NN)
+  (NP humble/JJ setting/NN)
+  and/CC
+  (NP straight-forward/JJ)
+  RANGREZZ/NNP
+  (VP (V arrives/VBZ) (PP (P without/IN) (NP the/DT usual/JJ)))
+  frills/NNS
+  and/CC
+  trappings/NNS
+  (PP (P of/IN) (NP a/DT masala/NN)))
+[('The', 'DT'), ('story', 'NN'), ('is', 'VBZ'), ('not', 'RB'), ('path-breaking,', 'JJ'), ('but', 'CC'), ('what', 'WP'), ('works', 'NNS'), ('in', 'IN'), ('the', 'DT'), ('first', 'JJ'), ('hour', 'NN'), ('at', 'IN'), ('least', 'JJS'), ('is', 'VBZ'), ('the', 'DT'), ('realistic', 'JJ'), ('milieu', 'NN'), ('and', 'CC'), ('the', 'DT'), ('age-old', 'JJ'), ('philosophy', 'NN'), ('that', 'WDT'), ('enduring', 'VBG'), ('friendship', 'NN'), ('can', 'MD'), ('overcome', 'VB'), ('all', 'PDT'), ('odds,', '-NONE-'), ('with', 'IN'), ('friends', 'NNS'), ('standing', 'VBG'), ('by', 'IN'), ('each', 'DT'), ('other', 'JJ'), ('through', 'IN'), ('thick', 'NN'), ('and', 'CC')] 
+(S
+  (NP The/DT story/NN)
+  (VP (V is/VBZ) not/RB (NP path-breaking,/JJ))
+  but/CC
+  what/WP
+  works/NNS
+  (PP (P in/IN) (NP the/DT first/JJ hour/NN))
+  (P at/IN)
+  least/JJS
+  (VP (V is/VBZ) (NP the/DT realistic/JJ milieu/NN))
+  and/CC
+  (NP the/DT age-old/JJ philosophy/NN)
+  that/WDT
+  (VP (V enduring/VBG) (NP friendship/NN))
+  can/MD
+  (VP (V overcome/VB))
+  all/PDT
+  odds,/-NONE-
+  (P with/IN)
+  friends/NNS
+  (VP
+    (V standing/VBG)
+    (PP (P by/IN) (NP each/DT other/JJ))
+    (PP (P through/IN) (NP thick/NN)))
+  and/CC)
+[('and', 'CC'), ('writer', 'NN'), ('Shiekh', 'NNP'), ('incorporate', 'NN'), ('a', 'DT'), ('number', 'NN'), ('of', 'IN'), ('sequences', 'NNS'), ('that', 'WDT'), ('stay', 'NN'), ('with', 'IN'), ('you', 'PRP'), ('some', 'DT'), ('sweet,', 'JJ'), ('some', 'DT'), ('true-to-life,', 'JJ'), ('some', 'DT')] 
+(S
+  and/CC
+  (NP writer/NN)
+  Shiekh/NNP
+  (NP incorporate/NN)
+  (NP a/DT number/NN)
+  (P of/IN)
+  sequences/NNS
+  that/WDT
+  (NP stay/NN)
+  (P with/IN)
+  you/PRP
+  (NP some/DT sweet,/JJ)
+  (NP some/DT true-to-life,/JJ)
+  (NP some/DT))
+[('The', 'DT'), ('entire', 'JJ'), ('kidnap', 'NN'), ('drama', 'NN'), ('prior', 'RB'), ('to', 'TO'), ('the', 'DT'), ('intermission', 'NN'), ('is', 'VBZ'), ('simply', 'RB'), ('outstanding', 'JJ'), ('and', 'CC'), ('raises', 'VBZ'), ('[monumental]', 'JJ'), ('expectations', 'NNS'), ('from', 'IN'), ('the', 'DT'), ('second', 'JJ')] 
+(S
+  (NP The/DT entire/JJ kidnap/NN drama/NN)
+  prior/RB
+  to/TO
+  (NP the/DT intermission/NN)
+  (VP (V is/VBZ) simply/RB (NP outstanding/JJ))
+  and/CC
+  (VP (V raises/VBZ) (NP [monumental]/JJ))
+  expectations/NNS
+  (PP (P from/IN) (NP the/DT second/JJ)))
+[('However,', 'NN'), ('the', 'DT'), ('writing', 'NN'), ('in', 'IN'), ('the', 'DT'), ('post-interval', 'JJ'), ('portions', 'NNS'), ('is', 'VBZ'), ('just', 'RB'), ('not', 'RB')] 
+(S
+  (NP However,/NN)
+  (NP the/DT writing/NN)
+  (PP (P in/IN) (NP the/DT post-interval/JJ))
+  portions/NNS
+  (VP (V is/VBZ) just/RB not/RB))
+[('Although', 'IN'), ('a', 'DT'), ('lot', 'NN'), ('seems', 'VBZ'), ('to', 'TO'), ('have', 'VB'), ('occurred', 'VBN'), ('in', 'IN'), ('the', 'DT'), ('lives', 'NNS'), ('of', 'IN'), ('the', 'DT'), ('three', 'CD'), ('friends,', 'NN'), ('the', 'DT'), ('manner', 'NN'), ('in', 'IN'), ('which', 'WDT'), ('they', 'PRP'), ('join', 'VBP'), ('hands', 'NNS'), ('to', 'TO'), ('start', 'VB'), ('life', 'NN'), ('afresh', 'NN'), ("isn't", 'RB'), ('persuasive', 'JJ'), ('at', 'IN')] 
+(S
+  (PP (P Although/IN) (NP a/DT lot/NN))
+  (VP (V seems/VBZ))
+  to/TO
+  (VP (V have/VB))
+  (VP (V occurred/VBN) (PP (P in/IN) (NP the/DT)))
+  lives/NNS
+  (PP (P of/IN) (NP the/DT))
+  three/CD
+  (NP friends,/NN)
+  (NP the/DT manner/NN)
+  (P in/IN)
+  which/WDT
+  they/PRP
+  (VP (V join/VBP))
+  hands/NNS
+  to/TO
+  (VP (V start/VB) (NP life/NN afresh/NN))
+  isn't/RB
+  (NP persuasive/JJ)
+  (P at/IN))
+[('Besides,', 'NN'), ('the', 'DT'), ('tiffs', 'NNS'), ('between', 'IN'), ('the', 'DT'), ('married', 'JJ'), ('couple', 'NN'), ('seem', 'NN'), ('childish', 'JJ'), ('and', 'CC'), ('fall', 'NN')] 
+(S
+  (NP Besides,/NN)
+  (NP the/DT)
+  tiffs/NNS
+  (PP (P between/IN) (NP the/DT married/JJ couple/NN seem/NN))
+  (NP childish/JJ)
+  and/CC
+  (NP fall/NN))
+[('Also,', 'NN'), ('the', 'DT'), ('resolution', 'NN'), ('the', 'DT'), ('trio', 'NN'), ('trying', 'VBG'), ('to', 'TO'), ('reunite', 'VB'), ('the', 'DT'), ('couple', 'NN'), ('looks', 'NNS'), ('far-fetched', 'JJ'), ('in', 'IN'), ('the', 'DT'), ('scheme', 'NN'), ('of', 'IN')] 
+(S
+  (NP Also,/NN)
+  (NP the/DT resolution/NN)
+  (NP the/DT trio/NN)
+  (VP (V trying/VBG))
+  to/TO
+  (VP (V reunite/VB) (NP the/DT couple/NN))
+  looks/NNS
+  (NP far-fetched/JJ)
+  (PP (P in/IN) (NP the/DT scheme/NN))
+  (P of/IN))
+[('Even', 'RB'), ('otherwise,', 'JJ'), ('the', 'DT'), ('pacing', 'NN'), ('slows', 'VBZ')] 
+(S
+  Even/RB
+  (NP otherwise,/JJ)
+  (NP the/DT pacing/NN)
+  (VP (V slows/VBZ)))
+[('In', 'IN'), ('short,', 'JJ'), ('the', 'DT'), ('impact', 'NN'), ('that', 'IN'), ('created', 'VBD'), ('so', 'RB'), ('wonderfully', 'RB'), ('in', 'IN'), ('the', 'DT'), ('first', 'JJ'), ('half', 'DT'), ('crumbles', 'NNS'), ('in', 'IN'), ('the', 'DT'), ('latter', 'NN'), ('half', 'NN'), ('of', 'IN'), ('the', 'DT')] 
+(S
+  (PP (P In/IN) (NP short,/JJ))
+  (NP the/DT impact/NN)
+  (P that/IN)
+  (VP
+    (V created/VBD)
+    so/RB
+    wonderfully/RB
+    (PP (P in/IN) (NP the/DT first/JJ))
+    (NP half/DT))
+  crumbles/NNS
+  (PP (P in/IN) (NP the/DT latter/NN half/NN))
+  (PP (P of/IN) (NP the/DT)))
+[('Like', 'IN'), ('all', 'DT'), ('movies,', 'NNP'), ('has', 'VBZ'), ('been', 'VBN'), ('filmed', 'VBN'), ('very', 'RB'), ('well,', 'JJ'), ('although', 'IN'), ('I', 'PRP'), ('wish', 'VBP'), ('to', 'TO'), ('the', 'DT'), ('newer', 'NN'), ('lot', 'NN'), ('of', 'IN'), ('movies,', 'NN'), ('for', 'IN'), ('some', 'DT'), ('reason,', 'JJ'), ('appear', 'NN'), ('like', 'IN'), ('a', 'DT'), ('diluted', 'JJ'), ('version', 'NN'), ('of', 'IN'), ('his', 'PRP$'), ('earlier', 'JJR'), ('accomplished', 'JJ')] 
+(S
+  (PP (P Like/IN) (NP all/DT))
+  movies,/NNP
+  (VP (V has/VBZ))
+  (VP (V been/VBN))
+  (VP (V filmed/VBN) very/RB (NP well,/JJ))
+  (P although/IN)
+  I/PRP
+  (VP (V wish/VBP))
+  to/TO
+  (NP the/DT newer/NN lot/NN)
+  (PP (P of/IN) (NP movies,/NN))
+  (PP (P for/IN) (NP some/DT reason,/JJ appear/NN))
+  (PP (P like/IN) (NP a/DT diluted/JJ version/NN))
+  (P of/IN)
+  his/PRP$
+  earlier/JJR
+  (NP accomplished/JJ))
+[("There's", 'NNS'), ('no', 'DT'), ('denying', 'VBG'), ('that', 'IN'), ('is', 'VBZ'), ('an', 'DT'), ('incredible', 'JJ'), ('storyteller', 'NN'), ('and', 'CC'), ('a', 'DT'), ('major', 'JJ'), ('part', 'NN'), ('of', 'IN'), ('the', 'DT'), ('first', 'JJ'), ('hour', 'NN'), ('has', 'VBZ'), ('his', 'PRP$'), ('by-now-famous', 'JJ'), ('stamp,', 'NN'), ('but', 'CC'), ('how', 'WRB'), ('one', 'CD'), ('wishes', 'NNS'), ('the', 'DT'), ('second', 'JJ'), ('hour', 'NN'), ('was', 'VBD'), ('as', 'IN')] 
+(S
+  There's/NNS
+  (NP no/DT)
+  (VP (V denying/VBG))
+  (P that/IN)
+  (VP (V is/VBZ) (NP an/DT incredible/JJ storyteller/NN))
+  and/CC
+  (NP a/DT major/JJ part/NN)
+  (PP (P of/IN) (NP the/DT first/JJ hour/NN))
+  (VP (V has/VBZ))
+  his/PRP$
+  (NP by-now-famous/JJ stamp,/NN)
+  but/CC
+  how/WRB
+  one/CD
+  wishes/NNS
+  (NP the/DT second/JJ hour/NN)
+  (VP (V was/VBD))
+  (P as/IN))
+[('The', 'DT'), ('soundtrack', 'NN'), ('compliments', 'NNS'), ('the', 'DT'), ('narrative', 'JJ')] 
+(S
+  (NP The/DT soundtrack/NN)
+  compliments/NNS
+  (NP the/DT narrative/JJ))
+[("'Govinda", 'NN'), ("Re'", 'NNP'), ('and', 'CC'), ('Shiv', 'NNP'), ('are', 'VBP'), ('energetic,', 'JJ'), ('while', 'IN'), ("'Gangnam", 'JJ'), ("Style'", 'NN'), ('[placed', 'JJ'), ('towards', 'NNS'), ('the', 'DT'), ('end', 'NN'), ('credits]', 'NN'), ('is', 'VBZ'), ('already', 'RB'), ('popular', 'JJ'), ('with', 'IN'), ('one', 'CD'), ('and', 'CC')] 
+(S
+  (NP 'Govinda/NN)
+  Re'/NNP
+  and/CC
+  Shiv/NNP
+  (VP
+    (V are/VBP)
+    (NP energetic,/JJ)
+    (PP (P while/IN) (NP 'Gangnam/JJ Style'/NN))
+    (NP [placed/JJ))
+  towards/NNS
+  (NP the/DT end/NN credits]/NN)
+  (VP (V is/VBZ) already/RB (NP popular/JJ))
+  (P with/IN)
+  one/CD
+  and/CC)
+[("Sivan's", 'NNP'), ('cinematography', 'NN'), ('is', 'VBZ')] 
+(S Sivan's/NNP (NP cinematography/NN) (VP (V is/VBZ)))
+[('The', 'DT'), ('color', 'NN'), ('tones', 'NNS'), ('catch', 'VBP'), ('your', 'PRP$'), ('attention', 'NN')] 
+(S
+  (NP The/DT color/NN)
+  tones/NNS
+  (VP (V catch/VBP))
+  your/PRP$
+  (NP attention/NN))
+[('The', 'DT'), ('dialogue', 'NN'), ('[Manisha', 'NN'), ('Korde],', 'NN'), ('especially', 'RB'), ('those', 'DT'), ('delivered', 'VBN'), ('by', 'IN'), ('Yadav,', 'NNP'), ('are', 'VBP')] 
+(S
+  (NP The/DT dialogue/NN [Manisha/NN Korde],/NN)
+  especially/RB
+  (NP those/DT)
+  (VP (V delivered/VBN))
+  (P by/IN)
+  Yadav,/NNP
+  (VP (V are/VBP)))
+[("Jackky's", 'NNS'), ('character', 'VBP'), ('in', 'IN'), ('is', 'VBZ'), ('shades', 'VBZ'), ('apart', 'NN'), ('from', 'IN'), ('the', 'DT'), ('one', 'CD'), ('he', 'PRP'), ('portrayed', 'VBD'), ('in', 'IN')] 
+(S
+  Jackky's/NNS
+  (VP (V character/VBP))
+  (P in/IN)
+  (VP (V is/VBZ))
+  (VP (V shades/VBZ) (NP apart/NN) (PP (P from/IN) (NP the/DT)))
+  one/CD
+  he/PRP
+  (VP (V portrayed/VBD))
+  (P in/IN))
+[('and', 'CC'), ('GAZABB', 'NNP'), ('and', 'CC'), ('he', 'PRP'), ('pulls', 'VBZ'), ('it', 'PRP'), ('off', 'RP'), ('with', 'IN'), ('supreme', 'NN')] 
+(S
+  and/CC
+  GAZABB/NNP
+  and/CC
+  he/PRP
+  (VP (V pulls/VBZ))
+  it/PRP
+  off/RP
+  (PP (P with/IN) (NP supreme/NN)))
+[('Stepping', 'VBG'), ('out', 'IN'), ('of', 'IN'), ('the', 'DT'), ('comfort', 'NN'), ('zone,', 'NN'), ('gets', 'VBZ'), ('to', 'TO'), ('portray', 'VB'), ('a', 'DT'), ('character', 'NN'), ('that', 'WDT'), ('has', 'VBZ'), ('varied', 'VBN'), ('shades', 'NNS'), ('and', 'CC'), ('he', 'PRP'), ('enacts', 'VBZ'), ('his', 'PRP$'), ('part', 'NN'), ('with', 'IN'), ('complete', 'JJ')] 
+(S
+  (VP (V Stepping/VBG))
+  (P out/IN)
+  (PP (P of/IN) (NP the/DT comfort/NN zone,/NN))
+  (VP (V gets/VBZ))
+  to/TO
+  (VP (V portray/VB) (NP a/DT character/NN))
+  that/WDT
+  (VP (V has/VBZ))
+  (VP (V varied/VBN))
+  shades/NNS
+  and/CC
+  he/PRP
+  (VP (V enacts/VBZ))
+  his/PRP$
+  (NP part/NN)
+  (PP (P with/IN) (NP complete/JJ)))
+[('Anand', 'NNP'), ('looks', 'VBZ'), ('photogenic,', 'JJ'), ('but', 'CC'), ("doesn't", 'JJ'), ('get', 'NN'), ('much', 'RB'), ('to', 'TO')] 
+(S
+  Anand/NNP
+  (VP (V looks/VBZ) (NP photogenic,/JJ))
+  but/CC
+  (NP doesn't/JJ get/NN)
+  much/RB
+  to/TO)
+[('Nagpal', 'NNP'), ('is', 'VBZ')] 
+(S Nagpal/NNP (VP (V is/VBZ)))
+[('Verma', 'NNP'), ('Pakya]', 'NNP'), ('tends', 'VBZ'), ('to', 'TO'), ('go', 'VB'), ('overboard', 'RB'), ('at', 'IN'), ('times,', 'JJ'), ('but', 'CC'), ('leaves', 'VBZ'), ('a', 'DT'), ('strong', 'JJ'), ('impression', 'NN')] 
+(S
+  Verma/NNP
+  Pakya]/NNP
+  (VP (V tends/VBZ))
+  to/TO
+  (VP (V go/VB) overboard/RB (PP (P at/IN) (NP times,/JJ)))
+  but/CC
+  (VP (V leaves/VBZ) (NP a/DT strong/JJ impression/NN)))
+[('Chanana', 'NNP'), ('Joy]', 'NNP'), ('does', 'VBZ')] 
+(S Chanana/NNP Joy]/NNP (VP (V does/VBZ)))
+[('Yadav', 'NNP'), ('entertains', 'VBZ'), ('every', 'DT'), ('time', 'NN'), ('he', 'PRP'), ('appears', 'VBZ'), ('on', 'IN')] 
+(S
+  Yadav/NNP
+  (VP (V entertains/VBZ) (NP every/DT time/NN))
+  he/PRP
+  (VP (V appears/VBZ))
+  (P on/IN))
+[('The', 'DT'), ('two', 'CD'), ('warring', 'VBG'), ('politicians,', 'JJ'), ('Tripathi', 'NNP'), ('and', 'CC'), ('Dubey,', 'NNP'), ('are', 'VBP'), ('just', 'RB'), ('right', 'RB'), ('in', 'IN'), ('their', 'PRP$'), ('respective', 'JJ')] 
+(S
+  (NP The/DT)
+  two/CD
+  (VP (V warring/VBG) (NP politicians,/JJ))
+  Tripathi/NNP
+  and/CC
+  Dubey,/NNP
+  (VP (V are/VBP) just/RB right/RB)
+  (P in/IN)
+  their/PRP$
+  (NP respective/JJ))
+[('On', 'IN'), ('the', 'DT'), ('RANGREZZ', 'NNP'), ('has', 'VBZ'), ('an', 'DT'), ('impressive', 'JJ'), ('first', 'JJ'), ('half,', 'NN'), ('but', 'CC'), ('loses', 'VBZ'), ('focus', 'NN'), ('in', 'IN'), ('the', 'DT'), ('post-interval', 'JJ')] 
+(S
+  (PP (P On/IN) (NP the/DT))
+  RANGREZZ/NNP
+  (VP (V has/VBZ) (NP an/DT impressive/JJ first/JJ half,/NN))
+  but/CC
+  (VP
+    (V loses/VBZ)
+    (NP focus/NN)
+    (PP (P in/IN) (NP the/DT post-interval/JJ))))
+[('One', 'CD'), ('definitely', 'RB'), ('expected', 'VBN'), ('more!', '-NONE-')] 
+(S One/CD (VP definitely/RB (V expected/VBN)) more!/-NONE-)
+(0, 0.1875)
+(0.0, 0)
+(0, 0)
+(0.03125, 0)
+(0, 0.0703125)
+(0, 0)
+(0, 0.046875)
+(0.0, 0.0)
+(0, 0)
+(0, 0)
+(0, 0)
+(-0.041666666666666664, 0)
+(0.0, 0.028125)
+(0, 0)
+(0.0, 0.1875)
+(0, 0.2578125)
+(0, 0)
+(0, 0)
+(0, 0)
+(0, 0)
+(0, 0.0)
+(0, 0.0)
+(-0.78125, 0)
+(0, 0)
+(0, 0.1640625)
+(0, 0)
+(0, 0)
+(0, 0)
+(0, 0)
+(0, 0)
+(0, 0)
+(0.0, 0)
+(0, 0)
+(0, 0.0)
+(0, 0)
+(0, 0)
+(0, 0.1640625)
+(0, 0)
+(0, 0.375)
